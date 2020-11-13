@@ -1,3 +1,6 @@
 # ansible_test
 
-test
+install ssh
+copy keys
+update inventory
+
