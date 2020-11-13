@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  tasks:
+  
+  - name: install packages
+    become: true
+    apt:
+      state: present
+      name:
+        - vim
+        - vlc
+        - cog
+        - ssh  
